@@ -11,7 +11,11 @@ sku            = "2016-Datacenter"
 version        = "latest"
 */
 
-network_name = "exxon-network"
-subnet_name  = "exxon-server"
-nic_name     = "exxon-vm1-nic"
+network_name   = "exxon-network"
+subnet_name    = "exxon-server"
+nic_name       = "exxon-vm1-nic"
 public_ip_name = "my-vm-pub-ip"
+/*
+domain_name = "exxon1.westeurope.cloudapp.azure.com"
+*/
+publicip = "/subscriptions/741c7337-67ba-4533-b99d-cc208353eb03/resourceGroups/pubip/providers/Microsoft.Network/publicIPAddresses/pubip"
